@@ -4,5 +4,5 @@ import Component from './component'
 
 
 ReactDOM.render(
-    <Component />, document.getElementById('app')
+    <Component value='Show!'/>, document.getElementById('app')
 )
