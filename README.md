@@ -1,1 +1,1 @@
-Learning and developing Web Applications with React and Redux.
+Learning and developing Web Applications using React.
