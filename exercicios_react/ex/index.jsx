@@ -5,13 +5,13 @@ import { Provider } from 'react-redux'
 import Field from './field'
 
 const reducers = combineReducers({
-    filed: () => ({ value: 'Opa'})
+    field: () => ({ value: 'Opa2'})
 })
 
 ReactDOM.render(
     
     <Provider store={createStore(reducers)}>
         <Field initialValue='Teste'/>
-    <Provider>    
+    </Provider>    
     , document.getElementById('app')
 )
