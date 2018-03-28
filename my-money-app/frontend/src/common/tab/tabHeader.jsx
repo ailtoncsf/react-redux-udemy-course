@@ -9,7 +9,7 @@ class TabHeader extends Component {
         const selected = this.props.tab.selected === this.props.target
         return (
             <li className={selected ? 'active' : ''}>
-                <a href="javascript:;" 
+                <a href='javascript:;' 
                    data-toggle='tab' 
                    data-target={this.props.target} 
                    onClick={() => this.props.selectTab(this.props.target)}>
