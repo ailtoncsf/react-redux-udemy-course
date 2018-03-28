@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 
 class TabContent extends Component {
     render() {
-        const selected = this.props.tab.selected === this.props.id
+        const selected = this.props.tab.selected === this.props.id                
         return (
             <div id={this.props.id}
                  className={`tab-pane ${selected ? 'active' : ''}`}>            
@@ -14,5 +14,5 @@ class TabContent extends Component {
     }
 }
 
-const mapStateToProps = state =>({tab: state.tab})
+const mapStateToProps = state => ({tab: state.tab})
 export default connect(mapStateToProps)(TabContent)
